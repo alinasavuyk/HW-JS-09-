@@ -2660,7 +2660,7 @@ clockface.style.display = 'flex';
 clockface.style.maxWidth = '500px';
 clockface.style.margin = '20px';
 clockface.style.padding = '10px 20px';
-clockface.style.fontSize = '30px';
+clockface.style.fontSize = '35px';
 clockface.style.borderRadius = '20px';
 clockface.style.color = '#f1f1f1';
 clockface.style.justifyContent = 'center';
@@ -2692,7 +2692,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64950" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60084" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
