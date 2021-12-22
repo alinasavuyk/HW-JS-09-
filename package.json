@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://alinasavuyk.github.io/goit-js-9",
+  "homepage": "https://alinasavuyk.github.io/HW-JS-09-",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-9/"
+    "build": "parcel build src/*.html --public-url /HW-JS-09-/"
   },
   "repository": {
     "type": "git",
